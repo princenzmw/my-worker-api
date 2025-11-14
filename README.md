@@ -2,14 +2,13 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Success-green)](https://my-worker-api.pnzamuwe.workers.dev/)
 
-This repository contains a simple, yet polished, API deployed on Cloudflare Workers. It demonstrates how a single Worker can serve both a rich, interactive HTML homepage and a variety of valuable JSON API endpoints.
+This repository contains a simple, yet polished, API deployed on Cloudflare Workers. It demonstrates how a single Worker can serve both a rich, interactive HTML homepage and a variety of valuable API endpoints.
 
 This project was created for the MLH Global Hack Week.
 
 ## 🚀 Live Demo
 
-You can access the live, deployed API at:
-**[https://my-worker-api.pnzamuwe.workers.dev/](https://my-worker-api.pnzamuwe.workers.dev/)**
+You can access the live, deployed API [here](https://my-worker-api.pnzamuwe.workers.dev/)
 
 ---
 
@@ -23,10 +22,6 @@ The worker is built from a single `src/index.js` file and responds to several ro
 | `/api` | `GET` | Returns a JSON object with a custom message and timestamp. |
 | `/message` | `GET` | Returns a plain text greeting from the author. |
 | `/random` | `GET` | Returns a random UUID. |
-| `/greet?name=...`| `GET` | Returns a personalized JSON greeting (e.g., `/greet?name=Prince`). |
-| `/headers` | `GET` | Returns the request headers and client IP. |
-| `/time` | `GET` | Returns the current server time (UTC and locale). |
-| `/echo` | `POST` | Echoes back the JSON or text body sent in the request. |
 
 ---
 
@@ -36,8 +31,7 @@ To run this project on your local machine, you'll need [Node.js](https://nodejs.
 
 1.  **Clone the repository:**
     ```bash
-    # Make sure to use your own repository URL
-    git clone [https://github.com/princenzmw/my-worker-api](https://github.com/princenzmw/my-worker-api)
+    git clone https://github.com/princenzmw/my-worker-api
     cd my-worker-api
     ```
 
